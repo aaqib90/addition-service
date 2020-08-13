@@ -1,0 +1,12 @@
+api: v1
+kind: pod
+metadata:
+  name: additional-service
+  labels:
+    name: additional-service
+spec:
+  containers:
+  -name: additional-service
+  image: aaqibjsregistry.azurecr.io/gs-spring-boot-docker:latest
+  ports:
+  -containerPort:80
