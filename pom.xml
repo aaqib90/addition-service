@@ -11,10 +11,12 @@
 	<groupId>com.prolifics</groupId>
 	<artifactId>addition-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>addition-service</name>
 	<description>Simple Addition Service</description>
 
 	<properties>
+		<docker.image.prefix>springio</docker.image.prefix>
 		<jib-maven-plugin.version>2.4.0</jib-maven-plugin.version>
 		<java.version>1.8</java.version>
 	</properties>
